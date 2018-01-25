@@ -4,7 +4,7 @@ layout: tutorial
 title:  "Getting Started with Kotlin and JavaScript with IntelliJ IDEA"
 description: "A look at how to use IntelliJ IDEA to target JavaScript."
 authors: Hadi Hariri 
-date: 2016-09-30
+ date: 2016-09-30
 showAuthorInfo: false
 ---
 
@@ -34,6 +34,8 @@ Once the IDE has finished creating the new project, we should be left with the f
 
 At this point we can start writing Kotlin code. For this sample, we're going to write some code that will print a string
 out to the console window.
+
+Create a file called Main.kt under the src folder and add the following:
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -75,7 +77,7 @@ In order to debug the application using IntelliJ IDEA, we need to perform two st
 1. Install the [JetBrains Chrome Extension](https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji?hl=en) which allows debugging inside IntelliJ IDEA via Chrome. This is useful for any type
 of web application developed with IntelliJ IDEA, not just Kotlin.
 
-2. Configure the Kotlin Compiler to generate source maps, accessible via `Preferences|Kotlin Compiler`
+2. Configure the Kotlin Compiler to generate source maps, accessible via `Preferences|Kotlin Compiler` ( or `Settings|Kotlin Compiler` on Windows and Linux) 
 
 ![SourceMaps]({{ url_for('tutorial_img', filename='javascript/getting-started-idea/compiler-options-sourcemaps.png')}})
 
